@@ -1,0 +1,567 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ul, ol{
+  margin: 0;
+  padding: 0;
+}
+/* welcome part start */
+.header nav {
+  height: 32px;
+  background-color: #0872b9;
+}
+
+#welcome {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-size: 13pt;
+  color: #e7e7e7;
+}
+
+.nav-link i {
+  padding: 0 7px;
+  color: white;
+  font-weight: normal;
+  font-size: 13px;
+  transition: 0.4s;
+}
+
+.nav-link i:hover {
+  color: #353535;
+  transition: 0.4s;
+}
+
+/* .nav-link #linkedin{
+  color: #353535;
+} */
+/* welcome part end */
+/* Navbar part start */
+.navigation nav {
+  background-color: white;
+  height: 82px;
+}
+
+.navigation nav ul li a {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  color: #484343;
+  font-size: 12pt;
+}
+
+#home {
+  color: #0872b9;
+}
+
+/* Navbar part end */
+/* Banner part start */
+.banner {
+  min-height: 70vh;
+  /* height: 500px; */
+  width: 100%;
+  background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../Images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.banner .row {
+  text-align: right;
+}
+
+.banner .row h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-size: 24pt;
+  color: white;
+  margin-top: 50px;
+}
+
+.banner .row h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-size: 30pt;
+  color: white;
+}
+
+.banner .row p {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  color: white;
+  margin-top: 35px;
+  font-size: 10pt;
+  line-height: 28px;
+}
+
+.banner .row a {
+  margin-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 3px 9px;
+}
+
+.banner .row a:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: #0872b9;
+  tra nsition: 0.4s;
+}
+
+/* Banner part end */
+/* About part start */
+.about-part .about-title h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 60px;
+}
+
+.about-part .about-title img {
+  height: 1.3px;
+  margin-top: -44px;
+  margin-right: 53px;
+}
+
+.about-part .about-details {
+  margin-top: 10px;
+}
+
+.about-part .about-details .row .col-md-8 {
+  margin-top: 40px;
+}
+
+.about-part .about-details .row .col-md-8 p {
+  margin-left: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  line-height: 30px;
+  font-size: 13px;
+  font-weight: bold;
+}
+/* About part end */
+/* Service Part Start */
+.service-part .service-header h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 60px;
+}
+
+.service-part .service-header img {
+  height: 1.3px;
+  margin-top: -44px;
+  margin-right: 104px;
+}
+.service-part .service-con-main{
+  margin-top: 37px;
+}
+
+.service-part .service-con-main .service-con {
+  background: #f1f1f1;
+  padding: 17px;
+  padding-left: 15px;
+  position: relative;
+  transition: 0.4s;
+}
+
+.service-part .service-con-main .service-con .service-img {
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f1f1;
+  box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 4px #f1f1f1, 0px 0px 0px 6px white;
+  top: -34px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  transition: 0.4s;
+
+}
+
+.service-part .service-con-main .service-con:hover {
+  box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.43);
+  transition: 0.4s;
+}
+.service-part .service-con-main .service-con:hover .service-img{
+  background: #5bc5f4;
+  box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 4px #5bc5f4, 0px 0px 0px 6px white;
+  transition: 0.4s;
+}
+.service-part .service-con-main .service-con h4 {
+  margin-top: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-weight: bold;
+}
+
+.service-part .service-con-main .service-con p {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  margin-top: 10px;
+}
+/* Service Part end */
+
+
+/* Portfolio part start */
+.portfolio-part .header-part h1{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.portfolio-part .header-part img{
+height: 1.2px;
+margin-top: -44px;
+margin-left: -134px;
+}
+.portfolio-part .portfolio-content-main .portfolio-content{
+  position: relative;
+}
+.portfolio-part .portfolio-content-main .portfolio-content .portfolio-overlay{
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  transition: 0.4s;
+}
+.portfolio-part .portfolio-content-main .portfolio-content .portfolio-overlay  i{
+height:40px;
+width: 40px;
+border-radius: 50%;
+background: #5bc5f3;
+justify-content: center;
+align-items: center;
+display: flex;
+color: white;
+position: relative;
+font-size: 10px;
+}
+.portfolio-part .portfolio-content-main .portfolio-content:hover .portfolio-overlay{
+opacity: 1;
+transition: 0.4s;
+}
+/* Portfolio part end */
+/* Our Team Start */
+.team-part .header-part h1{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.team-part .header-part img{
+  height: 1.3px;
+  margin-top: -44px;
+  margin-left: -55px;
+}
+.team-part .team-content-main .team-content-details .team-content-text h1{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.team-part .team-content-main .team-content-details .team-content-text h5{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-size: 14px;
+}
+.team-part .team-content-main .team-content-img{
+position: relative;
+}
+.team-part .team-content-main .team-content-details .team-content-img .team-content-overlay{
+  height: 100%;
+  width: 30%;
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.7s;
+}
+.team-part .team-content-main .team-content-details .team-content-img:hover .team-content-overlay{
+  opacity: 1;
+  transition: 0.7s;
+}
+.team-part .team-content-main .team-content-details{
+  transition: 0.7s;
+}
+.team-part .team-content-main .team-content-details .team-content-img:hover{
+  box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.43);
+  transition: 0.7s;
+}
+.team-part .team-content-main .team-content-details:hover .team-content-text h1{
+  color: #5bc5f4;
+  transition: 0.7s;
+}
+.team-part .team-content-main .team-content-details .team-content-img .team-content-overlay ul{
+  margin: 0;
+  padding: 0;
+}
+.team-part .team-content-main .team-content-details .team-content-img .team-content-overlay ul li{
+list-style: none;
+height: 40px;
+width: 40px;
+border: 2px solid white;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+display: flex;
+margin: 10px 0;
+transition: 0.3s;
+}
+.team-part .team-content-main .team-content-details .team-content-img .team-content-overlay  ul li:hover{
+  background: #5bc5f3;
+  border: 2px solid #5bc5f3;
+  box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.43);
+  -webkit-box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.43);
+  -moz-box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.43);
+  transition: 0.3s;
+}
+.team-part .team-content-main .team-content-details .team-content-img .team-content-overlay ul li a{
+color: white;
+font-size: 16px;
+}
+/* Our Team Start */
+
+
+/* Testimonial part start */
+/* .testimonial-part{
+  margin: 60px 0;
+  background: #353535;
+} */
+.testimonial-part .header-part h1{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.testimonial-part .header-part img{
+  height: 1.3px;
+  margin-top: -43px;
+  margin-left: -100px;
+}
+.testimonial-part .testimonial-content-main-part .testimonial-content-details img{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+transition: 0.7s;
+}
+.testimonial-part .testimonial-content-main-part .testimonial-content-details .testimonial-content-about{
+  background: #f1f1f1;
+  margin-top: 40px;
+  position: relative;
+  transition: 0.7s;
+}
+.testimonial-part .testimonial-content-main-part .testimonial-content-details .testimonial-content-about h4{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.testimonial-part .testimonial-content-main-part .testimonial-content-details .testimonial-content-about .testimonial-icon i{
+  font-size: 20px;
+  color: #5bc5f4;
+}
+
+.testimonial-part .testimonial-content-main-part .testimonial-content-details .testimonial-content-about h5{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 5px;
+}
+
+.testimonial-part .testimonial-content-main-part .testimonial-content-details .testimonial-content-about p{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  padding: 3px 20px 20px 20px;
+  font-size: 13px;
+  line-height: 25px;
+}
+.testimonial-part .testimonial-content-main-part .testimonial-content-details .testimonial-content-about .arrow-overlay{
+height: 100px;
+width: 100px;
+background: #f1f1f1;
+position: absolute;
+top: 0;
+left: 50%;
+transform: translateX(-50%) rotate(45deg);
+z-index: -1;
+transition: 0.7s;
+}
+
+/* Hover effect */
+.testimonial-part .testimonial-content-main-part .testimonial-content-details:hover img{
+  box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.88);
+-webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.88);
+-moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.88);
+transition: 0.7s;
+}
+.testimonial-part .testimonial-content-main-part .testimonial-content-details:hover .testimonial-content-about{
+  box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.88);
+-webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.88);
+-moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.88);
+transition: 0.7s;
+}
+.testimonial-part .testimonial-content-main-part .testimonial-content-details:hover .testimonial-content-about .arrow-overlay{
+  box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.88);
+-webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.88);
+-moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.88);
+transition: 0.7s;
+}
+/* Testimonial part end */
+
+
+/* Contact Part Start */
+.contact-part{
+  background: #353535;
+  margin-top: 45px;
+}
+/* .contact-part .contact-details{
+  padding: 32px 40px 20px 40px;
+} */
+.contact-part .contact-details .contact-details-1 img{
+  margin-top: 20px;
+}
+.contact-part .contact-details .contact-details-1 p{
+  margin-top: 30px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-size: 16px;
+}
+
+.contact-part .contact-details .contact-details-2 h1{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+.contact-part .contact-details .contact-details-2 .contact-icon-details{
+  margin-top: 40px;
+}
+.contact-part .contact-details .contact-details-2 .contact-icon-details .contact-icon i{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: #5bc5f3;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+}
+.contact-part .contact-details .contact-details-2 .contact-icon-details .contact-detail p{
+  color: white;
+  line-height: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  font-size: 12px;
+}
+.contact-part .contact-details .contact-details-2 .contact-icon-details .contact-detail{
+  margin-top: -10px;
+}
+.contact-part .contact-details .contact-details-3 h1{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+.contact-part .contact-details .contact-details-3 .contact-links-main{
+display: flex;
+}
+.contact-part .contact-details .contact-details-3 .contact-links-main .contact-links{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top:12px;
+}
+.contact-part .contact-details .contact-details-3 .contact-links-main .contact-links li{
+  padding: 10px 0;
+}
+.contact-part .contact-details .contact-details-3 .contact-links-main .contact-links:nth-child(2) li{
+  padding-left: 45px;
+}
+.contact-part .contact-details .contact-details-3 .contact-links-main .contact-links li a{
+text-decoration: none;
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Corinthia', cursive;
+font-size: 13px;
+transition: 0.5s;
+}
+.contact-part .contact-details .contact-details-3 .contact-links-main .contact-links li:hover a{
+  color: #5bc5f3;
+  transition: 0.5s;
+}
+.contact-part .contact-details .contact-details-4 h1{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+.contact-part .contact-details .contact-details-4 .contact-image{
+  margin-top: 41px;
+  padding-bottom: 20px;
+}
+.contact-part .contact-details .contact-details-4 .contact-image .flickr-img img{
+  margin-right: 10px;
+  margin-top: 10px;
+}
+/* Contact Part end */
+
+
+/* Footer part start */
+.footer-part{
+  background: #555555;
+  color: white;
+  border-top: 5px solid white;
+}
+.footer-part .footer-content{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Corinthia', cursive;
+  padding: 16px 0;
+}
+.footer-part .footer-content a{
+  text-decoration: none;
+  color: #5bc5f4;
+}
+/* Footer part end */
